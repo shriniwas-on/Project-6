@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body{
+    background-image: url('https://giffiles.alphacoders.com/211/211236.gif') ;
+}
+.content{
+background-image: url('https://cliply.co/wp-content/uploads/2019/08/371908020_CONFETTI_400px.gif');
+color: black;
+}
+p{
+    font-size: 23px;
+    margin-left: 10px;
+}
+.header{
+    background-image: url('https://i.gifer.com/70bm.gif');
+    color: whitesmoke;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 200px;
+    margin-top: 100px;
+}
+header{
+    font-size: 100px;
+    text-align: center;
+    animation-name: blow;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: ease-in-out;
+    
+    
+}
+#img1{
+    position: relative;
+    width: 440px;
+    margin-left: 35px;
+    height: 320px;
+    margin-top: 20px;
+
+}
+#img2{
+  position: relative;
+    width: 440px;
+    margin-left: 30px;
+    height: 320px;
+}
+h1{
+    font-size: 45px;
+    animation-name: blow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-duration: 2s;
+    
+}
+
+@keyframes blow{
+  100% {
+          background-position: 2000px 0;
+        }
+  from{
+    top: 30px;
+   margin-top: 0px;
+    margin-left: 0px;
+    color: rgb(59, 22, 161);
+  }
+  to{
+    top: 50px;
+    top: 0px;
+    left: 250px;
+    color: rgb(196, 28, 28);
+  }
+}
+form{
+  text-align: center;
+  font-size: 30px;
+}
+
+</style>
+<body>
+    <div class="header">
+    <header>Dax Animations Inc.</header>
+    <div class="content">
+        <h1 style="text-align: center;">About Us</h1>
+       <p>We script, design, direct and produce animation films. These include television commercials, Episodic content, public service announcements, promotional content for TV channels, music videos, short and feature length films.</p>
+       <p>We are most happy creating animated content for USA audiences. We do so using all mediums of animation, be it hand drawn 2d animation, stop motion or computer generated 3d animation. We provided services: #ads films #website #graphic designing #animation films  # advertisement</p>
+        <h1>Work Done by us :</h1>
+        <img src="https://c.tenor.com/lyINteVH68kAAAAd/power-rangers-battle-for-the-grid.gif" id="img1" alt="">
+      <img id="img2" src="https://c.tenor.com/HPiVEa0pYEoAAAAd/gif.gif" alt="">
+      <img id="img1" src="https://giffiles.alphacoders.com/202/202291.gif" alt="">
+      <img id="img2" src="http://31.media.tumblr.com/tumblr_md3bifu31j1rk3gouo1_500.gif" alt="">
+      <h1>Login to your account :</h1>
+      <form action="/action_page.php">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter Name"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name"><br>
+        <label for="e">Enter email address</label><br>
+        <input type="email" id="e" name="e" placeholder="Enter email address"><br>
+        <label for="p">Enter your password</label><br>
+        <input type="password" id="p" name="p" placeholder="Enter your password"><br>
+        <input type="submit" value="Submit">
+      </form>
+
+    </div></div>
+</body></html>
